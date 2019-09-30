@@ -1,0 +1,48 @@
+.qt-main-traslados .card{
+	border: 1px solid #cd5a21;
+ 
+}
+.qt-main-traslados .btn-primary{
+	background-color:#cd5a21;
+	border-color:#cd5a21;
+}
+.qt-main-traslados .btn-primary:hover{
+	background-color:#0054a6;
+	border-color:#0054a6;
+}
+.qt-main-traslados .noUi-connect {
+  background: #cd5a21;
+}
+.qt-main-traslados .btn-primary.disabled, .btn-primary:disabled {
+	background-color:grey;
+	border-color:grey;
+
+}
+.qt-main-traslados .btn-primary.disabled, .btn-primary:disabled:focus {
+	background-color:grey;
+	border-color:grey;
+	box-shadow:none;
+
+}
+.qt-main-traslados .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #cd5a21;
+}
+.qt-main-traslados  .custom-control-input:checked~.custom-control-label::before{
+    background-color: #cd5a21;
+}
+.qt-main-traslados a{
+	color: #cd5a21;
+}
+.qt-main-traslados a:hover{
+	color: #cd5a21;
+}
+.qt-main-traslados a:not([href]):not([tabindex]):focus, .qt-main-traslados a:not([href]):not([tabindex]):hover, .qt-main-traslados a:not([href]):not([tabindex]) {
+	color: #cd5a21;
+}
+.qt-main-traslados .card .card-title{
+	color: black;
+}
+.qt-main-traslados .card .card-text{
+	color: grey;
+}
+

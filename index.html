@@ -1,0 +1,1098 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Favicons-->
+			<link rel="shortcut icon" href="http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/favicon.png" type="image/x-icon">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+
+	<title>Transfer Ibiza. Traslados desde Aeropuerto y Puerto | Viajes Ibiza</title>
+                        <script>
+                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+                            if ( typeof WebFontConfig === "undefined" ) {
+                                WebFontConfig = new Object();
+                            }
+                            WebFontConfig['google'] = {families: ['Poppins:500,400']};
+
+                            (function() {
+                                var wf = document.createElement( 'script' );
+                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+                                wf.type = 'text/javascript';
+                                wf.async = 'true';
+                                var s = document.getElementsByTagName( 'script' )[0];
+                                s.parentNode.insertBefore( wf, s );
+                            })();
+                        </script>
+                        <link rel="alternate" hreflang="es" href="http://devel.www.viajesibiza.com/traslados/" />
+<link rel="alternate" hreflang="en" href="http://devel.www.viajesibiza.com/en/transfers/" />
+
+<!-- This site is optimized with the Yoast SEO plugin v11.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Reserva online de traslados en Ibiza y Formentera para puerto hotel y aeropuerto hotel. El mejor servicio de traslados en bus shuttle o coche privado."/>
+<link rel="canonical" href="http://devel.www.viajesibiza.com/traslados/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Transfer Ibiza. Traslados desde Aeropuerto y Puerto | Viajes Ibiza" />
+<meta property="og:description" content="Reserva online de traslados en Ibiza y Formentera para puerto hotel y aeropuerto hotel. El mejor servicio de traslados en bus shuttle o coche privado." />
+<meta property="og:url" content="http://devel.www.viajesibiza.com/traslados/" />
+<meta property="og:site_name" content="Viajes Ibiza" />
+<meta property="article:section" content="Sin categorizar" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Reserva online de traslados en Ibiza y Formentera para puerto hotel y aeropuerto hotel. El mejor servicio de traslados en bus shuttle o coche privado." />
+<meta name="twitter:title" content="Transfer Ibiza. Traslados desde Aeropuerto y Puerto | Viajes Ibiza" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"http://devel.www.viajesibiza.com/#organization","name":"","url":"http://devel.www.viajesibiza.com/","sameAs":[]},{"@type":"WebSite","@id":"http://devel.www.viajesibiza.com/#website","url":"http://devel.www.viajesibiza.com/","name":"Viajes Ibiza","publisher":{"@id":"http://devel.www.viajesibiza.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"http://devel.www.viajesibiza.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"http://devel.www.viajesibiza.com/traslados/#webpage","url":"http://devel.www.viajesibiza.com/traslados/","inLanguage":"es","name":"Transfer Ibiza. Traslados desde Aeropuerto y Puerto | Viajes Ibiza","isPartOf":{"@id":"http://devel.www.viajesibiza.com/#website"},"datePublished":"2019-01-21T14:20:29+00:00","dateModified":"2019-08-20T11:32:44+00:00","description":"Reserva online de traslados en Ibiza y Formentera para puerto hotel y aeropuerto hotel. El mejor servicio de traslados en bus shuttle o coche privado."}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Viajes Ibiza &raquo; Feed" href="http://devel.www.viajesibiza.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Viajes Ibiza &raquo; RSS de los comentarios" href="http://devel.www.viajesibiza.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Viajes Ibiza &raquo; Traslados RSS de los comentarios" href="http://devel.www.viajesibiza.com/traslados/feed/" />
+<link rel='stylesheet' id='parent-style-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea/style.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/style.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='image-hover-effects-css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/ihover.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/style.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-latest-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/font-awesome/css/font-awesome.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='flaticon-vi-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/flaticon-vi/font/flaticon.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://devel.www.viajesibiza.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawsome-css-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/accesspress-social-login-lite/css/font-awesome/font-awesome.min.css?ver=3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='apsl-frontend-css-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/accesspress-social-login-lite/css/frontend.css?ver=3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.5.3' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.5.3' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wpml-legacy-dropdown-0-css'  href='//devel.www.viajesibiza.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.css?ver=1' type='text/css' media='all' />
+<style id='wpml-legacy-dropdown-0-inline-css' type='text/css'>
+.wpml-ls-statics-shortcode_actions, .wpml-ls-statics-shortcode_actions .wpml-ls-sub-menu, .wpml-ls-statics-shortcode_actions a {border-color:#ffffff;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a {color:#373535;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language:hover>a, .wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a:focus {color:#cb5b2d;}
+</style>
+<link rel='stylesheet' id='wpml-menu-item-0-css'  href='//devel.www.viajesibiza.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='date-range-picker-style-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/daterangepicker.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='traslados-style-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/traslado.own.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='icomoon-fonts-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/assets/style.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Poppins%3A700%2C600%2C500%2C400%2C300%7CPoppins%3A500%7CPoppins%3A400&#038;ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='panagea_style_icons-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea/css/icon_fonts/css/all_icons.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap_4.1-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea/css/bootstrap.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery_ui-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea/css/jquery-ui.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='panagea_style_main-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea/css/theme.css?ver=5.0.6' type='text/css' media='all' />
+<style id='panagea_style_main-inline-css' type='text/css'>
+.hero_single{display:none !important;}
+@media (min-width: 1025px) {
+  .mainpage{
+     top: 40px
+  }
+}
+</style>
+<link rel='stylesheet' id='panagea_style_vendors-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea/css/vendors.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='panagea_style_custom-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea/css/custom.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='panagea_child_theme_css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/style.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mdcf7-styles-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/cf7-material-design/inc/../addons/css/cf7material-styles.css?ver=5.0.6' type='text/css' media='all' />
+<style id='mdcf7-styles-inline-css' type='text/css'>
+.wpcf7 .wpcf7-form .input-field label { color: #3f66a7; } .wpcf7-form input:not([type]), .wpcf7-form input[type=text]:not(.browser-default), .wpcf7-form input[type=password]:not(.browser-default), .wpcf7-form input[type=email]:not(.browser-default), .wpcf7-form input[type=url]:not(.browser-default), .wpcf7-form input[type=time]:not(.browser-default), .wpcf7-form input[type=date]:not(.browser-default), .wpcf7-form input[type=datetime]:not(.browser-default), .wpcf7-form input[type=datetime-local]:not(.browser-default), .wpcf7-form input[type=tel]:not(.browser-default), .wpcf7-form input[type=number]:not(.browser-default), .wpcf7-form input[type=search]:not(.browser-default), .wpcf7-form textarea.materialize-textarea { border-bottom: 1px solid #3f66a7; } .wpcf7 .wpcf7-form .input-field input[type=text]:focus + label, .wpcf7-form input:not([type]):focus:not([readonly])+label, .wpcf7-form input[type=text]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=password]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=email]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=url]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=time]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=date]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=datetime]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=tel]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=number]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=search]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form textarea.materialize-textarea:focus:not([readonly])+label, .wpcf7-form .dropdown-content li>a, .wpcf7-form .dropdown-content li>span { color: #3f66a7; } .wpcf7-form input:not([type]):focus:not([readonly]), .wpcf7-form input[type=text]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=password]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=email]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=url]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=time]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=date]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=datetime]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=datetime-local]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=tel]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=number]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=search]:not(.browser-default):focus:not([readonly]), .wpcf7-form textarea.materialize-textarea:focus:not([readonly]) { border-bottom: 1px solid #3f66a7; box-shadow: 0 1px 0 0 #3f66a7; } .wpcf7-form .input-field .prefix { color: #ce5d24 } .wpcf7-form .input-field .prefix.active { color: #3f66a7 } .wpcf7-form { background-color: #ffffff; } .wpcf7-form input:not([type]), .wpcf7-form input[type=text]:not(.browser-default), .wpcf7-form input[type=password]:not(.browser-default), .wpcf7-form input[type=email]:not(.browser-default), .wpcf7-form input[type=url]:not(.browser-default), .wpcf7-form input[type=time]:not(.browser-default), .wpcf7-form input[type=date]:not(.browser-default), .wpcf7-form input[type=datetime]:not(.browser-default), .wpcf7-form input[type=datetime-local]:not(.browser-default), .wpcf7-form input[type=tel]:not(.browser-default), .wpcf7-form input[type=number]:not(.browser-default), .wpcf7-form input[type=search]:not(.browser-default), .wpcf7-form textarea.materialize-textarea, .wpcf7-form label { color: #000000; } .wpcf7-form .dropdown-content { background-color: #ffffff; } .wpcf7 .wpcf7-form .wpcf7-submit, .wpcf7 .wpcf7-form .btn-large, .wpcf7 .wpcf7-form .btn { background-color: #3f66a7 !important; } .wpcf7-form input[type=range]+.thumb { background-color: #3f66a7 !important; } .wpcf7-form input[type=range]::-webkit-slider-thumb { background: #3f66a7 !important; } .wpcf7-form input[type=range]::-ms-thumb { background: #3f66a7 !important; } .wpcf7-form input[type=range]::-moz-range-thumb { background: #3f66a7 !important; } .wpcf7-form .spinner-layer { border-color: #3f66a7; } .wpcf7-form [type=radio]:checked+label:after, .wpcf7-form [type=radio].with-gap:checked+label:before, .wpcf7-form [type=radio].with-gap:checked+label:after { border: 2px solid #3f66a7; } .wpcf7-form [type=radio]:checked+label:after, .wpcf7-form [type=radio].with-gap:checked+label:after, .wpcf7-form .switch label input[type=checkbox]:checked+.lever:after { background-color: #3f66a7; } .wpcf7-form [type=checkbox]:checked+label:before { border-right: 2px solid #3f66a7; border-bottom: 2px solid #3f66a7; } .wpcf7 .wpcf7-form [type=checkbox].filled-in:checked+label:after { border: 2px solid #3f66a7; background-color: #3f66a7; } .wpcf7 .wpcf7-form .switch label input[type=checkbox]:checked+.lever { background-color: #dae0e8; } .wpcf7-form .picker__date-display, .wpcf7-form .picker__date-display, .wpcf7-form .clockpicker-canvas line, .wpcf7-form .clockpicker-canvas circle, .wpcf7-form .picker__day--selected, .wpcf7-form .picker__day--selected:hover, .wpcf7-form .picker--focused .picker__day--selected { background-color: #3f66a7; fill: #3f66a7; stroke: #3f66a7; } .wpcf7-form .picker__close, .wpcf7-form .picker__today, .wpcf7-form .picker__day.picker__day--today { color: #3f66a7; } .wpcf7-form { font-family: 'Roboto', sans-serif !important;}
+</style>
+<link rel='stylesheet' id='mdcf7-google-fonts-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/cf7-material-design/inc/../addons/css/materialicons.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mdcf7-google-fonts2-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/cf7-material-design/inc/../addons/css/roboto.css?ver=5.0.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/accesspress-social-login-lite/js/frontend.js?ver=3.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"http:\/\/devel.www.viajesibiza.com\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.46'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Ver carrito","cart_url":"http:\/\/devel.www.viajesibiza.com\/carrito\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.5.3'></script>
+<script type='text/javascript' src='//devel.www.viajesibiza.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.js?ver=1'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/assets/popper.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/moment-locales.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/jquery.daterangepicker.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/assets/mask.js?ver=5.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var the_ajax_script = {"ajaxurl":"http:\/\/devel.www.viajesibiza.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/assets/js/ajax.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/custom.js?ver=5.0.6'></script>
+<link rel='https://api.w.org/' href='http://devel.www.viajesibiza.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devel.www.viajesibiza.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devel.www.viajesibiza.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.6" />
+<meta name="generator" content="WooCommerce 3.5.3" />
+<link rel='shortlink' href='http://devel.www.viajesibiza.com/?p=443' />
+<link rel="alternate" type="application/json+oembed" href="http://devel.www.viajesibiza.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdevel.www.viajesibiza.com%2Ftraslados%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://devel.www.viajesibiza.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdevel.www.viajesibiza.com%2Ftraslados%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.2.0 stt:1,2;" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+    <script type="text/javascript">
+        var getLangCode = 'es';
+
+        var arrival_date = '2019-09-11';
+        var departure_date = '2019-09-12';
+        var service_type = 'hotel';
+        var ship_origin = '';
+        var ship_destination = '';
+        var one_way = '' == 1 ? true : false;
+        var num_adults = parseInt('2');
+        var num_childrens = parseInt('0');
+        var num_babies = parseInt('0');
+    </script>
+
+</head>
+
+<body class="page-template page-template-templates page-template-template-full-width page-template-templatestemplate-full-width-php page page-id-443 cookies-set cookies-accepted woocommerce-no-js page-traslados wpb-js-composer js-comp-ver-5.6 vc_responsive">
+
+	<div id="page">
+
+						<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
+				<header class="header">
+			<div class="header-content row no-gutters justify-content-between">
+				<div id="logo" class="col-md-2 col-sm-2 col-lg-2 col-xl-auto">
+					<a href="http://devel.www.viajesibiza.com/">
+						<img src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/logo.png" width="150" height="36" data-retina="true" alt="Panagea" class="logo_normal">
+						<img src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/logo_sticky.png" width="150" height="36" data-retina="true" alt="Panagea" class="logo_sticky">
+					</a>
+				</div>
+
+				<div class="col col-md-5 col-sm-2 col-lg-auto col-xl-auto row-header-info-contact row-header-info-contact"><div class="panagea-html-block  " style="animation-delay: 1s;"><div class="html_block_content"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  idioma-select" >
+		<div class="wpb_wrapper">
+			
+<div
+	 class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+
+		<li tabindex="0" class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+			<a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><span class="wpml-ls-native">ES</span></a>
+
+			<ul class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-last-item">
+						<a href="http://devel.www.viajesibiza.com/en/transfers/" class="wpml-ls-link"><span class="wpml-ls-display">EN</span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>
+
+		</div>
+	</div>
+<div class="vc_btn3-container  link-prof vc_btn3-right" >
+	<a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-flat vc_btn3-icon-left vc_btn3-color-primary" href="http://devel.www.viajesibiza.com/gestionar-mi-reserva/" title="Gestionar mi reserva"><i class="vc_btn3-icon fa fa-book"></i> Gestionar mi reserva</a></div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid header-info-contact vc_custom_1548405810919 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex"><div class="header-info-label wpb_column vc_column_container vc_col-sm-6 vc_hidden-sm vc_hidden-xs"><div class="vc_column-inner vc_custom_1548415491791"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1547824073254" >
+		<div class="wpb_wrapper">
+			<p style="text-align: right; font-size: 16px;">Te ayudamos a organizar tu viaje, contáctanos.</p>
+
+		</div>
+	</div>
+</div></div></div><div class="header-info-phonemail wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1548405393915"><div class="wpb_wrapper">		
+		<div style="text-align: left;">
+							<a data-onhovercolor="asda" data-onhoverbg="adsa" data-onleavebg="#4066a7" data-onleavecolor="#ffffff" href="tel:+34 971311111" target="" class="mega_hvr_btn " style="padding: 0px 0px; border:0px solid ; font-size: 20px; color: #ffffff; background-color: #4066a7; border-radius: 0px">
+					<i class="fa fa-phone"></i> 971 311 111				</a>
+			
+			<!-- Background Transition -->
+			
+			<!-- Border Transition -->
+			
+			<!-- Shadow Transition -->
+			
+			<!-- Speech Bubbles -->
+			
+
+			<!-- 3D button -->
+					</div>
+
+				
+		<div style="text-align: left;">
+							<a data-onhovercolor="asda" data-onhoverbg="adsa" data-onleavebg="#4066a7" data-onleavecolor="#ffffff" href="mailto:info@viajesibiza.com" target="" class="mega_hvr_btn " style="padding: 0px 0px; border:0px solid ; font-size: 16px; color: #ffffff; background-color: #4066a7; border-radius: 0px">
+					<i class="fa fa-envelope-o"></i> info@viajesibiza.com				</a>
+			
+			<!-- Background Transition -->
+			
+			<!-- Border Transition -->
+			
+			<!-- Shadow Transition -->
+			
+			<!-- Speech Bubbles -->
+			
+
+			<!-- 3D button -->
+					</div>
+
+		</div></div></div></div><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1548405810919{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1548415491791{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1548405393915{margin: 0px !important;padding: 0px !important;}.vc_custom_1547824073254{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 10px !important;padding-right: 30px !important;padding-bottom: 10px !important;padding-left: 30px !important;}</style></div></div></div>
+
+				<div class="col-lg-12 row-menu-header">
+					<nav id="menu" class="main-menu">
+
+
+						<div class="menu-header-menu-container"><ul id="menu-header-menu" class="menu"><li id="menu-item-2088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2088"><a href="http://devel.www.viajesibiza.com/hoteles-apartamentos-ibiza/">Hoteles</a></li>
+<li id="menu-item-2087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2087"><a href="http://devel.www.viajesibiza.com/ferrys/">Barco</a></li>
+<li id="menu-item-476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-476"><a href="http://devel.www.viajesibiza.com/grupos/">Grupos</a></li>
+<li id="menu-item-487" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-443 current_page_item menu-item-487 active "><a href="http://devel.www.viajesibiza.com/traslados/">Traslados</a></li>
+<li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="http://devel.www.viajesibiza.com/excursiones/">Excursiones</a></li>
+<li id="menu-item-472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472"><a href="http://devel.www.viajesibiza.com/actividades/">Actividades</a></li>
+<li id="menu-item-478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-478"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/">Ibiza</a>
+<ul class="sub-menu">
+	<li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/ibiza-ciudad/">Ibiza Ciudad</a></li>
+	<li id="menu-item-479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/cultura-monumentos/">Cultura y Monumentos</a></li>
+	<li id="menu-item-483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/museos/">Museos</a></li>
+	<li id="menu-item-485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/playas/">Playas</a></li>
+	<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/deportes/">Deportes</a></li>
+	<li id="menu-item-484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/naturaleza-parques-naturales/">Naturaleza y Parques Naturales</a></li>
+	<li id="menu-item-481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/discotecas-ocio/">Discotecas y Ocio</a></li>
+</ul>
+</li>
+<li id="menu-item-327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327"><a href="http://devel.www.viajesibiza.com/contacto/">Contacto</a></li>
+<li id="menu-item-3472" class="item-menu-mobile menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="http://devel.www.viajesibiza.com/gestionar-mi-reserva/">Gestionar mi reserva</a></li>
+<li id="menu-item-wpml-ls-54-es" class="menu-item wpml-ls-slot-54 wpml-ls-item wpml-ls-item-es wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-54-es"><a title="ES" href="http://devel.www.viajesibiza.com/traslados/"><span class="wpml-ls-display">ES</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-wpml-ls-54-en" class="menu-item wpml-ls-slot-54 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-54-en"><a title="EN" href="http://devel.www.viajesibiza.com/en/transfers/"><span class="wpml-ls-display">EN</span></a></li>
+</ul>
+</li>
+</ul></div>					</nav>
+				</div>
+
+				<div class="col-lg-12 booking-mask">
+					<div class="booking-form-wrapper">
+						<form method="get" action="hoteles-apartamentos-ibiza/" class="form-container booking-mask row no-gutters justify-content-center align-items-center" id="bookform">
+
+							<div class="tipo-servicio">
+								<select id="stype" name="stype" aria-invalid="false" placeholder="Servicios...">
+                                                                            <option value="hotel" selected="selected">
+                                            Hotel                                        </option>
+                                                                            <option value="barco" >
+                                            Barco                                        </option>
+                                    								</select>
+							</div>
+
+							<div class="tipo-destino">
+								<select id="sdest" name="sdest" aria-invalid="false" placeholder="Destino...">
+									<option value="ibiza" selected="selected">Ibiza</option>
+								</select>
+								<select style="display:none;" id="dest_origen" name="origenIda" data-form="mask" aria-invalid="false" placeholder="Origin destination">
+									<option value="">Origen</option>
+                                                                            <option value="NMA" >
+                                            Mallorca                                        </option>
+                                                                            <option value="NBA" >
+                                            Barcelona                                        </option>
+                                                                            <option value="NME" >
+                                            Menorca                                        </option>
+                                                                            <option value="NLE" >
+                                            Dénia                                        </option>
+                                                                            <option value="NFO" >
+                                            Formentera                                        </option>
+                                                                            <option value="NIB" >
+                                            Ibiza                                        </option>
+                                    								</select>
+							</div>
+
+							<div class="nombre-hotel headermask">
+								<select id="dest_final" name="destinoIda" data-form="mask" aria-invalid="false" placeholder="Final destination">
+									<option value="">Destino</option>
+                                    								</select>
+							</div>
+
+							<div class="box-date-range col-md-auto">
+								<div id="two-inputs" class="row no-gutters">								
+									<div class="label-calendar label-arrival scoopnav">
+										<div class="selector scoopbtn corner-1">
+											<div id="date-range-arribal" class="datesad box-input-arrival">
+												<input id="date-range200" size="20" value="2019-09-11">
+												<span class="info">
+												<!-- el contenido se muestra por jquery -->
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="label-calendar label-departure scoopnav">
+										<div class="selector scoopbtn corner-1">
+											<div id="date-range-departure" class="datesad box-input-departure">
+												<input id="date-range201" size="20" value="2019-09-12">
+												<span class="info">
+												<!-- el contenido se muestra por jquery -->
+												</span>
+											</div>
+										</div>
+									</div>									
+								</div>
+								<div id="botonclose_calendar"><i class="flaticon-cancel"></i></div>
+								<div id="date-range-container"></div>
+							</div>
+
+							<div id="personasAll"  class="panel-dropdown col-md-auto">
+								<a href="javascript:;">Personas <span id="personasAllqtyTotal" data-type="headermask" class="qtyTotal">2</span></a>
+								<div id="personasBarco">
+									<div class="panel-dropdown-content right">
+										<div class="qtyButtons adultos" data-type="headermask">
+											<label>Adultos</label>
+											<input id="adultsBarco" type="text" data-type="headermask" name="numAdultos" value="2" class="qtyInput">
+										</div>
+										<div class="qtyButtons menores" data-type="headermask">
+											<label>Niños</label>
+											<input id="menoresBarco" type="text" data-type="headermask" name="numMenores" value="0" class="qtyInput">
+										</div>	
+										<div class="qtyButtons bebes headermask" data-type="headermask">
+											<label>Bebés</label>
+											<input id="bebesBarco" type="text" data-type="headermask" name="numBebes" value="0" class="qtyInput">
+										</div>			
+									</div>
+								</div>
+							</div>
+
+							<div id="soloida" class="solo-ida wpcf7-form" style="display:none;">
+								<!-- Material unchecked -->
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" data-type="headermask" id="materialUnchecked" name="materialUnchecked" />
+									<label class="form-check-label" for="materialUnchecked">Sólo ida</label>
+								</div>
+							</div>
+
+                            <button type="submit" id="search-mask" class="col-md-auto btn_1 purchase check-price-btn">
+								Buscar                            </button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+
+			<ul id="top_menu">
+
+				
+				
+				
+								
+			</ul>
+			<!-- /top_menu -->
+			<a href="#menu" class="btn_mobile">
+				<div class="hamburger hamburger--spin" id="hamburger">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+			</a>
+			<!-- /top_menu -->
+			<a href="#booking" class="btn_mobile_mask"><i class="flaticon-search"></i>Reservar</a>
+
+		</header>
+		<!-- /header -->
+	<main class="mainpage">
+				<section class="hero_single version_2" style="height: 620px;">
+				<div class="bg-wrapper" style="height: 620px;">
+				<div class="effect-bg" style="background: url(https://panagea.c-themes.com/wp-content/themes/panagea/img/header-img.jpg) center center / cover no-repeat;"></div>
+				</div>
+				<div class="wrapper">
+					<div class="container">
+																	</div>
+									</div>
+			</section>
+			<!--/hero_in-->
+		<div id="position"><div class="container"><ul><li><a href="http://devel.www.viajesibiza.com/" title="Home">Home</a></li><li class="active">Traslados</li></ul></div></div>		
+
+		<div class="clearfix">
+			<div class="container-fluid">
+				<div class="">
+					
+					<div class="post-content">
+						<div class="vc_row wpb_row vc_row-fluid traslados-wrapper"><div class="kuu-column wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="ishi-column traslados-content wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 25px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+		<div class="wpb_wrapper">
+			<!--<div class="container">-->
+<div id="traslado"></div>
+<!--</div>-->
+
+
+
+<!-- INIT SCRIPT-->
+    <script>
+        //EasyTravelApi implementation server (DEMO URL change for own API URL)
+
+		localStorage.setItem("baseurl", 'https://sandbox1.quotravel.eu/resources/eyAiY3JlYXRlZCI6ICJUdWUgTWF5IDA3IDEyOjUzOjU2IENFU1QgMjAxOSIsICJ1c2VySWQiOiAid2ViIiwgImFnZW5jeUlkIjogIjUzIn0=');
+
+		//language (ISO code) Supported =>( es, en )Spanish default if no language
+
+		localStorage.setItem("language", 'es');
+
+		//contact mail
+
+		localStorage.setItem("contactmail",'info@quotravel.com')
+
+		var globaldata = {
+
+		captchaValidation: false,
+
+		baseurl: localStorage.getItem("baseurl"), // EasyTravelApi implementation server
+
+		language: localStorage.getItem("language"), //Current Language for ML system (ISO code)
+
+		contactmail: localStorage.getItem("contactmail"), // Email for contact when bikes on transfer Transfer Only
+
+		recaptchatoken: "", // Public Token for Google recaptcha v2
+
+		alldestinations: true, //Enable multi-destination
+		nocart:true
+
+		};
+    </script>
+
+    <!-- CDN app CSS -->
+<!--<link href="/css/traslado.app.css" rel="preload" as="style">
+<link href="/css/traslado.chunk-vendors.css" rel="preload" as="style">
+<link href=/js/traslado.app.js rel=preload as=script><link href=/js/traslado.chunk-vendors.js rel=preload as=script>-->
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.4.1/css/all.css integrity=sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz crossorigin=anonymous>
+<link href=/css/traslado.chunk-vendors.css rel=stylesheet>
+<link href=/css/traslado.app.css rel=stylesheet>
+<link rel=stylesheet href=css/traslado.generic.css>
+<script src=/js/traslado.chunk-vendors.js></script>
+<script src=/js/traslado.app.js>
+<!--
+
+	<link href=https://unpkg.com/quotravel-transfer-engine-bootstrap@1.0.0/static/css/traslado.app.css rel=stylesheet>
+	<link href=https://unpkg.com/quotravel-transfer-engine-bootstrap@1.0.0/static/css/traslado.generic.css rel=stylesheet>
+
+
+
+<script type=text/javascript src="https://unpkg.com/quotravel-transfer-engine-bootstrap@1.0.0/static/js/traslado.manifest.js"></script>
+	<script type=text/javascript src="https://unpkg.com/quotravel-transfer-engine-bootstrap@1.0.0/static/js/traslado.vendor.js"></script>
+	<script type=text/javascript src="https://unpkg.com/quotravel-transfer-engine-bootstrap@1.0.0/static/js/traslado.app.js"></script>-->
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 10px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div><div class="kuu-column wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="kuu-column wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="ishi-column traslados-content wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-equal-height vc_row-flex"><div class="slidergridhotels wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
+
+
+
+		<h1 class="title-ficha ficha-hotel">
+			Servicio de transfer en Ibiza y Formentera		</h1>
+		<div class="ficha-gallery slider ficha-content" id="tdt-sliderficha-content">
+			
+			<div class="slider slider-for">
+				
+										<div>
+						<img src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados1.jpg" />
+					</div>
+
+				
+										<div>
+						<img src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados2.jpg" />
+					</div>
+
+				
+										<div>
+						<img src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados3.jpg" />
+					</div>
+
+				
+										<div>
+						<img src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados4.jpg" />
+					</div>
+
+							</div>
+			<div class="slider slider-nav">
+				
+										<!-- <div>
+						<img src="" />
+					</div> -->
+					<div class="img" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados1.jpg) no-repeat;">
+					</div>
+
+				
+										<!-- <div>
+						<img src="" />
+					</div> -->
+					<div class="img" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados2.jpg) no-repeat;">
+					</div>
+
+				
+										<!-- <div>
+						<img src="" />
+					</div> -->
+					<div class="img" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados3.jpg) no-repeat;">
+					</div>
+
+				
+										<!-- <div>
+						<img src="" />
+					</div> -->
+					<div class="img" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados4.jpg) no-repeat;">
+					</div>
+
+							</div>
+		</div>
+		<div class="description-ficha">
+			Reserva tu traslado desde el Aeropuerto o Puerto de Ibiza a tu alojamiento en Ibiza o Formentera y viceversa y olvidate de esperas y colas. Escoge entre nuestros servicios de Traslado Privado Estandar, Traslado en Shuttle (compartido) y Traslado Premium (VIP).		</div>
+		
+
+		
+		
+
+
+				
+
+
+		<div  class="vc_toggle vc_toggle_arrow vc_toggle_color_sandy_brown  vc_toggle_size_sm   about-masinfo  wpb_animate_when_almost_visible wpb_slideInDown slideInDown">
+	<div class="vc_toggle_title"><div style="font-size: 20px;color: #ce5e24;text-align: left" class="vc_custom_heading about-masinfo-linkaccordeon" >Más información</div><i class="vc_toggle_icon"></i></div>
+	<div class="vc_toggle_content"><h2 style="color: #4167a8;">Disfruta de Ibiza de la manera más cómoda</h2>
+<p><span style="color: #373535;">Olvídate de esperar y de hacer colas a tu llegada a Ibiza. No dejes que el inicio de tus vacaciones se estropee nada más llegar a la isla. Si lo que buscas es comodidad y olvidarte de toda preocupación durante tus vacaciones, no lo pienses más y reserva tus traslados en Ibiza y Formentera.</span></p>
+<p><span style="color: #373535;">En Viajes Ibiza ofrecemos servicio de transfer en Ibiza y Formentera desde el aeropuerto y el puerto hasta tu hotel o lugar de alojamiento. Escoge entre nuestros tres tipos de servicios de traslados (privado, bus shuttle y Premium) y comienza a disfrutar de tu estancia en Baleares sin perder ni un solo minuto.</span></p>
+<h2 style="color: #4167a8;">Reserva tu servicio de traslados en Ibiza con total garantía</h2>
+<p><span style="color: #373535;">Para realizar la reserva necesitaremos los datos completos de tu reserva (número de personas, fechas, número de vuelo y horas de llegada y de salida y el nombre del alojamiento).</span></p>
+<p><span style="color: #373535;">Si optas por nuestro servicio estándar privado o shuttle bus, a tu llegada, deberás dirigirte a nuestra oficina en el hall de llegadas del aeropuerto y si optas por nuestro servicio Premium te estarán esperando en la puerta de llegada con un letrero a tu nombre.</span></p>
+<p><span style="color: #373535;">No lo pienses más y completa tus vacaciones son el servicio de transfer. Seguro que a tu llegada agradecerás la comodidad de acceder a tu hotel de destino con total comodidad y sin preocupaciones.</span></p>
+</div>
+</div>
+<div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div><div class="list-banner-sidebar wpb_column vc_column_container vc_col-sm-3 vc_hidden-sm vc_hidden-xs"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left   mapa-ficha">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1458" height="1188" src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Ferry-01.jpg" class="vc_single_image-img attachment-full" alt="ferry" srcset="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Ferry-01.jpg 1458w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Ferry-01-300x244.jpg 300w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Ferry-01-768x626.jpg 768w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Ferry-01-1024x834.jpg 1024w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Ferry-01-600x489.jpg 600w" sizes="(max-width: 1458px) 100vw, 1458px" /></div>
+		</figure>
+	</div>
+<div class="vc_empty_space"   style="height: 5px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left   mapa-ficha">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="/excursiones/excursion-formentera-bus/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="700" height="1537" src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Formentera1.jpg" class="vc_single_image-img attachment-full" alt="formentera excursion" srcset="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Formentera1.jpg 700w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Formentera1-137x300.jpg 137w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Formentera1-466x1024.jpg 466w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Banner_Formentera1-600x1317.jpg 600w" sizes="(max-width: 700px) 100vw, 700px" /></a>
+		</figure>
+	</div>
+</div></div></div></div></div></div></div><div class="kuu-column wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left   imagen-hotelblock-top-right">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="346" height="352" src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/salvavidas.png" class="vc_single_image-img attachment-full" alt="" srcset="http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/salvavidas.png 346w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/salvavidas-295x300.png 295w" sizes="(max-width: 346px) 100vw, 346px" /></div>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="kuu-column wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="ishi-column traslados-related traslados-content carousel-traslados-correction wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="font-size: 20px;color: #3f66a7;text-align: center" class="vc_custom_heading" >Nuestros servicios de traslados</h2><div class="vc_empty_space"   style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
+		<section class="tm-slider block-hotels-slider  slider default-tdt slider-carousel-apts" style="width: ;" data-slick='{"arrows": true, "autoplaySpeed": 1500, "dots": true, "autoplay": false, "slidesToShow": 3, "slidesToScroll": 3, "slidesPerRow": 1, "rows": 1, "fade": false }'>
+		    
+		  <div class="item-slider" style="position:relative;">
+		  													<a style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados2.jpg);">
+					<!-- <img src="" class="ultimate-slide-img" style="width: ; height: ; border-radius: ; margin-bottom: 15px;"> -->
+											
+			</a>
+
+			<div class="price_content position-top-right" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/ribbon-item-hotel.png);">
+				<div class="price_to" style="color: #ffffff;">Desde</div>
+				<div class="price_num" style="color: #ffffff;">54 €</div>
+			</div>
+
+		  	<div class="content-section" style="text-align: left; position:relative;border: 1px solid #ce5d24; border-top: 0;">
+				 
+			 	<p class="tdt-slider-heading location" style="font-size: 22px; color: #cd7c22; font-weight: 500; line-height: 1;">
+			  		Traslados				</p>
+			  					  
+				<p class="tdt-slider-heading title-hotel" style="font-size: 20px; color: #484545; font-weight: 500; line-height: 27px;">
+					Traslado Privado				</p>
+				  
+				<div class="row no-gutters justify-content-between align-items-end">
+					<div class="col-lg-12 align-self-start">
+
+						Un traslado sólo para ti y tus acompañantes, más cómodo y flexible, sin esperas. Transporte en minibuses y buses.</p>
+<p>A tu llegada debes presentarte en nuestro mostrador del aeropuerto, donde te indicaran tu vehículo de traslado. Este servicio no te lleva hasta la puerta de tu alojamiento, sino hasta el punto autorizado y más próximo a tu alojamiento, donde está permitido dejar y recoger a los clientes.						
+					</div>
+
+					<div class="col-lg-12 align-self-end">
+						
+											</div>
+				</div>  
+
+				
+			  	
+			</div>
+		  </div>
+
+
+		
+		  <div class="item-slider" style="position:relative;">
+		  													<a style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/Bus-II-IBZ-SCANIA-.jpg);">
+					<!-- <img src="" class="ultimate-slide-img" style="width: ; height: ; border-radius: ; margin-bottom: 15px;"> -->
+											
+			</a>
+
+			<div class="price_content position-top-right" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/ribbon-item-hotel.png);">
+				<div class="price_to" style="color: #ffffff;">Desde</div>
+				<div class="price_num" style="color: #ffffff;">8,50 €</div>
+			</div>
+
+		  	<div class="content-section" style="text-align: left; position:relative;border: 1px solid #ce5d24; border-top: 0;">
+				 
+			 	<p class="tdt-slider-heading location" style="font-size: 22px; color: #cd7c22; font-weight: 500; line-height: 1;">
+			  		Traslados				</p>
+			  					  
+				<p class="tdt-slider-heading title-hotel" style="font-size: 20px; color: #484545; font-weight: 500; line-height: 27px;">
+					Traslado en Shuttle				</p>
+				  
+				<div class="row no-gutters justify-content-between align-items-end">
+					<div class="col-lg-12 align-self-start">
+
+						Traslado compartido con otras personas, más económico. A tu llegada debes presentarte en nuestro mostrador del aeropuerto, donde te indicaran el número de autocar y su hora de salida aproximada.</p>
+<p>Espera máxima de 60 minutos desde el momento que te hayas presentado en el mostrador. Este servicio no te lleva hasta la puerta de tu alojamiento, sino hasta el punto autorizado y más próximo a tu alojamiento, donde está permitido dejar y recoger a los clientes.						
+					</div>
+
+					<div class="col-lg-12 align-self-end">
+						
+											</div>
+				</div>  
+
+				
+			  	
+			</div>
+		  </div>
+
+
+		
+		  <div class="item-slider" style="position:relative;">
+		  													<a style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/traslados1.jpg);">
+					<!-- <img src="" class="ultimate-slide-img" style="width: ; height: ; border-radius: ; margin-bottom: 15px;"> -->
+											
+			</a>
+
+			<div class="price_content position-top-right" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/ribbon-item-hotel.png);">
+				<div class="price_to" style="color: #ffffff;">Desde</div>
+				<div class="price_num" style="color: #ffffff;">100 €</div>
+			</div>
+
+		  	<div class="content-section" style="text-align: left; position:relative;border: 1px solid #ce5d24; border-top: 0;">
+				 
+			 	<p class="tdt-slider-heading location" style="font-size: 22px; color: #cd7c22; font-weight: 500; line-height: 1;">
+			  		Traslados				</p>
+			  					  
+				<p class="tdt-slider-heading title-hotel" style="font-size: 20px; color: #484545; font-weight: 500; line-height: 27px;">
+					Servicio Premium				</p>
+				  
+				<div class="row no-gutters justify-content-between align-items-end">
+					<div class="col-lg-12 align-self-start">
+
+						Traslado privado de más categoría en Minivan y vehículos de alta gama – servicio VIP.</p>
+<p>A tu llegada al aeropuerto te estamos esperando en las puertas de llegadas con un cartel con tu nombre o el texto que nos indiques.						
+					</div>
+
+					<div class="col-lg-12 align-self-end">
+						
+											</div>
+				</div>  
+
+				
+			  	
+			</div>
+		  </div>
+
+
+				</section>
+
+		
+
+		
+		<div class="vc_empty_space"   style="height: 25px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div><div class="kuu-column wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 55px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid banner-promo-wrapper"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+
+
+				<div class="bannerpromo-wrapper top_style_content" style="background: url(http://devel.www.viajesibiza.com/wp-content/uploads/2019/08/traslados-vuelta.jpg); height:540px;">
+
+			
+			<div class="row" style="height:100%;">
+				<div class="col-md-5 col-lg-5 title-box">
+					<div class="title-promo"><h3><span style="color: #484545;"><strong>Te llevamos</strong><br />
+donde quieras!!</span></h3>
+</div>
+				</div>
+				<div class="col-md-7 col-lg-7 infoicons-box row no-gutters align-items-start">
+					<div class="content_box">
+						<div class="row-info no-gutters row align-items-end">
+							<div class="desc col-md-6 col-lg-6 row no-gutters align-items-center">
+								Traslados a cualquier sitio de Ibiza y Formentera!!							</div>
+							<div class="icons col-md-2 col-lg-2">
+								<div class="tagicon"><span>Incluido</span></div>
+
+								
+									
+									<div class="icon-col">
+										<div class="icon_file">
+											<img src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/aire-acondicionado.png" />
+										</div>
+										<h5 class="icon_label">Aire AC</h5>
+									</div>
+										
+															</div>
+							<div class="button-info col-md-4 col-lg-4 row no-gutters align-items-center">
+								<a data-onhovercolor="none" data-onhoverbg="none" data-onleavebg="#4066a7" data-onleavecolor="#ffffff" href="/traslados/" class="mega_hvr_btn " style="font-size: 18px; color: #ffffff; background: #4066a7; border: ; border-radius: 0px; padding: 10px 30px; border-radius: 0px;">
+									<i class=""></i> Más información								</a>
+							</div>
+							<div class="price col-md-4 col-lg-3 offset-lg-6 offset-md-6">
+								<p class="price_to">Desde</p>
+								<p class="price_num">8,5 €</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		
+		
+		
+		</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 55px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div>
+					</div>
+
+									</div>
+			</div>
+
+			<div class="bottom-content">
+							</div>
+		</div>
+		
+				<footer>
+
+			<div class="footer-bkg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-md-4 col-sm-12 p-r-5 sidebar-footer-1">
+
+															<div id="nav_menu-9" class="widget widget_nav_menu"><div class="widgettitle">Producto</div><div class="menu-menu-footer-producto-container"><ul id="menu-menu-footer-producto" class="menu"><li id="menu-item-2089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2089"><a href="http://devel.www.viajesibiza.com/hoteles-apartamentos-ibiza/">Hoteles</a></li>
+<li id="menu-item-2090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2090"><a href="http://devel.www.viajesibiza.com/ferrys/">Barco</a></li>
+<li id="menu-item-541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-541"><a href="http://devel.www.viajesibiza.com/grupos/">Grupos</a></li>
+<li id="menu-item-538" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-443 current_page_item menu-item-538 active "><a href="http://devel.www.viajesibiza.com/traslados/">Traslados</a></li>
+<li id="menu-item-539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-539"><a href="http://devel.www.viajesibiza.com/excursiones/">Excursiones</a></li>
+<li id="menu-item-540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-540"><a href="http://devel.www.viajesibiza.com/actividades/">Actividades</a></li>
+</ul></div></div>							
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-12 p-r-5 sidebar-footer-6">
+
+															<div id="nav_menu-11" class="widget widget_nav_menu"><div class="widgettitle">Información</div><div class="menu-menu-footer-informacion-container"><ul id="menu-menu-footer-informacion" class="menu"><li id="menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569"><a href="http://devel.www.viajesibiza.com/aviso-legal/">Aviso Legal</a></li>
+<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-570"><a href="http://devel.www.viajesibiza.com/politica-de-privacidad/">Política de Privacidad</a></li>
+<li id="menu-item-571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571"><a href="http://devel.www.viajesibiza.com/condiciones-de-reserva/">Condiciones de Reserva</a></li>
+</ul></div></div>							
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-12 sidebar-footer-2">
+
+															<div id="nav_menu-13" class="widget widget_nav_menu"><div class="widgettitle">Viajes Ibiza</div><div class="menu-menu-footer-viajes-ibiza-container"><ul id="menu-menu-footer-viajes-ibiza" class="menu"><li id="menu-item-568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-568"><a href="http://devel.www.viajesibiza.com/quienes-somos/">Quiénes Somos</a></li>
+<li id="menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553"><a href="http://devel.www.viajesibiza.com/contacto/">Contacto</a></li>
+<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="http://devel.www.viajesibiza.com/que-ver-en-ibiza/">Ibiza</a></li>
+</ul></div></div>							
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-12 sidebar-footer-3">
+
+															<div id="mc4wp_form_widget-3" class="widget widget_mc4wp_form_widget"><div class="widgettitle">Newsletter</div><script>(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.3.3 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-288" method="post" data-id="288" data-name="" ><div class="mc4wp-form-fields"><div class="form-group">
+  <input type="email" name="EMAIL" id="email_newsletter" class="form-control" placeholder="Your email" required>
+  <input type="submit" value="Submit" id="submit-newsletter">
+</div></div><label style="display: none !important;">Deja vacío este campo si eres humano: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1568197792" /><input type="hidden" name="_mc4wp_form_id" value="288" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></div><div id="social-widget-8" class="widget social-widget">		<div class="follow_us panagea-social-buttons">
+			<ul>
+				
+				<li></li>
+				
+									<li><a href="https://www.facebook.com/ibizaviajes" target="_blank"><i class="ti-facebook"></i></a></li>
+													<li><a href="https://twitter.com/IbizaViajes" target="_blank"><i class="ti-twitter-alt"></i></a></li>
+																	<li><a href="https://www.instagram.com/viajes_ibiza/" target="_blank"><i class="ti-instagram"></i></a></li>
+																							</ul>
+		</div>
+		</div>							
+						</div>
+					</div>
+					<!--/row-->
+				</div>
+			</div>
+
+			<div class="container padding_20_0">				
+				<div class="row">
+					<div class="col-lg-12 sidebar-footer-4">
+													<div id="custom_html-6" class="widget_text small-box widget_custom_html"><div class="textwidget custom-html-widget"></div></div>						
+						<div class="panagea-html-block  " style="animation-delay: 1s;"><div class="html_block_content"><p><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3/5"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left   logo-footer">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="vc_single_image-img " src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/logo-footer.png" width="195" height="50" alt="viajes ibiza logo" title="logo-footer" /></div>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper"><p style="font-size: 16px;color: #2781bf;text-align: left" class="vc_custom_heading direccion-footer vc_custom_1548747618216" >Viajes Ibiza © 2018 · 971 311 111 · info@viajesibiza.com<br />
+C/ Vicente cuervo, número 9. 07800 Ibiza, Baleares</p></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2/5"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><p style="font-size: 20px;color: #000102;text-align: right;font-family:Open Sans;font-weight:600;font-style:normal" class="vc_custom_heading pago-seguro vc_custom_1563432266772" >PAGO 100% SEGURO</p></div></div></div><div class="targetas wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left   targetas-img">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="879" height="175" src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/logo-tarjetas.png" class="vc_single_image-img attachment-full" alt="tarjetas" srcset="http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/logo-tarjetas.png 879w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/logo-tarjetas-300x60.png 300w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/logo-tarjetas-768x153.png 768w, http://devel.www.viajesibiza.com/wp-content/uploads/2019/04/logo-tarjetas-600x119.png 600w" sizes="(max-width: 879px) 100vw, 879px" /></div>
+		</figure>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  neomarca" >
+		<div class="wpb_wrapper">
+			<div class="copyright">
+<p>Diseño web y motor de reservas <a class="no-style-link neobookings-logo" title="Diseño web y motor de reservas Neobookings"><img class="alignnone size-full wp-image-3490" src="http://devel.www.viajesibiza.com/wp-content/uploads/2019/01/logoneo.png" alt="" width="78" height="19" /></a></div>
+
+		</div>
+	</div>
+</div></div></div></div></p>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1548747618216{padding-right: 27% !important;}.vc_custom_1563432266772{padding-top: 10px !important;}</style></div></div>											</div>
+				</div>
+			</div>
+
+
+			<script type="application/ld+json" defer="defer">
+				{
+					"@context": "http://schema.org",
+					"@type": "TravelAgency",
+					"url": "https://www.viajesibiza.com",
+					"logo": "https://www.viajesibiza.com/wp-content/uploads/2019/01/logo.png",
+					"image": "https://www.viajesibiza.com/wp-content/uploads/2019/01/logo.png",
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "Ibiza",
+						"postalCode": "07800",
+						"streetAddress": "C/ Vicente Cuervo 9"
+					},
+					"description": "Reserva tus vacaciones en Ibiza. Hoteles y apartamentos al mejor precio. Ofertas de barco, excursiones, traslados, discotecas, ferrys más hotel, grupos...",
+					"email": "info@viajesibiza.com",
+					"name": "Viajes Ibiza",
+					"telephone": "+34 971 311 111"
+				}
+			</script>
+		</footer>
+	<!--/footer-->
+	</div>
+	<!-- page -->
+	
+	<!-- Sign In Popup -->
+	<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+		<div class="small-dialog-header">
+			<div>Sign In</div>
+		</div>
+		<form name="loginform" action="http://devel.www.viajesibiza.com/wp-login.php" method="post" class="login-form">
+			<div class="sign-in-wrapper">
+				
+				    <div class='apsl-login-networks theme-1 clearfix'>
+                                <div class='social-networks'>
+                    </div>
+    </div>
+<div class="divider"><span>Or</span></div>
+				<div class="form-group">
+					<label>Username</label>
+					<input type="text" name="log" class="form-control" placeholder="Username">
+					<i class="ti-user"></i>
+				</div>
+
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" name="pwd" class="form-control" placeholder="Password">
+						<i class="icon_lock_alt"></i>
+				</div>
+
+				<div class="clearfix add_bottom_15">
+					<div class="checkboxes float-left">
+						<label class="container_check">Remember me							<input type="checkbox" name="rememberme" tabindex="3" value="forever">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="float-right mt-1">
+						<a id="forgot" href="http://devel.www.viajesibiza.com/mi-cuenta/lost-password/">Forgot password?</a>
+					</div>
+				</div>
+
+				<div class="text-center"><input type="submit" value="Log In" class="btn_1 full-width"></div>
+
+							</div>
+		</form>
+		<!--form -->
+	</div>
+	<!-- /Sign In Popup -->
+	
+	<div id="toTop"></div><!-- Back to top button -->
+	<script>(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel='stylesheet' id='hvr-btn-css-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/mega-addons-for-visual-composer/render/../css/hoverbtn.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='vi_ficha-css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/vi_ficha.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='vi_sliderhotels-css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/vi_sliderhotels.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='vi_sliderevents-css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/vi_sliderevents.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper.min-css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/swiper.min.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css-css'  href='http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='vi_bannerpromo-css-css'  href='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/css/vi_bannerpromo.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_google_fonts_open_sans300300italicregularitalic600600italic700700italic800800italic-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;ver=5.0.6' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/devel.www.viajesibiza.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_ddeb5a8b8da1d3ed488c2d34829c6adc","fragment_name":"wc_fragments_ddeb5a8b8da1d3ed488c2d34829c6adc"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.5.3'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3'></script>
+<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyA-nrcf6uE__3a44UBHPJdKurCSs4PhaB0&#038;ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/wp-a11y.min.js?ver=5.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"Sin resultados.","oneResult":"1 resultado encontrado. Utiliza las teclas de flecha arriba y abajo para navegar.","manyResults":"%d resultados encontrados. Utiliza las teclas arriba y abajo para navegar.","itemSelected":"Elemento seleccionado."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/jquery.validate.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/bootstrap.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/wow.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/retina-replace.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/owl.carousel.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/jquery.magnific-popup.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/ResizeSensor.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/theia-sticky-sidebar.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/sticky-kit.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/icheck.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/jquery.mmenu.all.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/jquery.nice-select.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/ion.rangeSlider.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/check.switchery.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/jquery.instagramFeed.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.22.2'></script>
+<script type='text/javascript'>
+moment.locale( 'es_ES', {"months":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"monthsShort":["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"weekdays":["domingo","lunes","martes","mi\u00e9rcoles","jueves","viernes","s\u00e1bado"],"weekdaysShort":["dom","lun","mar","mi\u00e9","jue","vie","s\u00e1b"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"d-m-Y","LLL":"j F, Y g:i a","LLLL":null}} );
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/daterangepicker.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/jquery.cookiebar.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/jquery.flexslider.js?ver=5.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxurl = "http:\/\/devel.www.viajesibiza.com\/wp-admin\/admin-ajax.php";
+var ajax_nonce = "7eaa153417";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/main.min.js?ver=5.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var close_box_url = "http:\/\/devel.www.viajesibiza.com\/wp-content\/themes\/panagea\/img\/close_infobox.png";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/map.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea/js/infobox.min.js?ver=5.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var parameters = {"file":"FIELD","files":"FIELDS"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/cf7-material-design/inc/../addons/js/material-cf7.js?ver=5.0.6'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function ($) { jQuery('.wpcf7 .wpcf7-date').pickadate({ selectMonths: true, selectYears: 10, min: [1997,1,14], max: [2027,1,14], monthsFull: ['January', 'February', 'March', 'Aprill', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], weekdaysFull: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], weekdaysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], today: 'TODAY', clear: 'CLEAR', close: 'OK', format: 'yyyy-mm-dd', closeOnSelect: false }); jQuery('.wpcf7 .timepicker').pickatime({ default: 'now', fromnow: 0, twelvehour: false, cleartext: 'CLEAR', donetext: 'OK', canceltext: 'CANCEL', autoclose: false, ampmclickable: true
+}); });
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-includes/js/wp-embed.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/js/slick.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/js/swiper.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/themes/panagea-child/inc/functions/vctemplates/js/custom-tm.js?ver=5.0.6'></script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.3.3'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='http://devel.www.viajesibiza.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.3.3'></script>
+<![endif]-->
+</body>
+</html>
